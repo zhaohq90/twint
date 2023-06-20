@@ -21,7 +21,7 @@ class Token:
         self.config = config
         self._retries = 5
         self._timeout = 10
-        self._session.headers.update({'authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA'})
+        self._session.headers.update({'authorization': 'AAAAAAAAAAAAAAAAAAAAAN3YnAEAAAAAwbMZgV%2F4IC1fQ2Yik9hk%2BrbW1Hw%3DbTAaOw27KwsxTkZpvm0DjO8dh2xUhBpdURrUEeM8qXigJ3BgXx'})
         self.url = 'https://api.twitter.com/1.1/guest/activate.json'
 
     def _request(self):
